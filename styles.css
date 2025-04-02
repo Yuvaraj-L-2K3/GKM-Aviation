@@ -149,11 +149,14 @@ nav {
 
 header {
   margin-top: 7rem;
+  padding-top:4rem;
   padding-inline:1rem;
   position: relative;
   isolation: isolate;
   overflow: hidden;
 }
+
+
 
 header::before {
   position: absolute;
