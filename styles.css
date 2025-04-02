@@ -148,8 +148,8 @@ nav {
 }
 
 header {
-  margin-top: 5rem;
-  padding-inline: 1rem;
+  margin-top: 7rem;
+  padding-inline:1rem;
   position: relative;
   isolation: isolate;
   overflow: hidden;
@@ -733,8 +733,10 @@ footer {
     background-color: var(--text-dark);
   }
 
+ 
+
   header {
-    margin-top: 0;
+    margin-top:0;
   }
 
   .header__container {
@@ -803,6 +805,8 @@ footer {
   .footer__col:last-child {
     grid-area: unset;
   }
+
+ 
 }
 
 @media (width > 1200px) {
@@ -813,4 +817,5 @@ footer {
   .destination__grid {
     gap: 2rem;
   }
+
 }
