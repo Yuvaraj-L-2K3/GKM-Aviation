@@ -210,7 +210,7 @@ header::before {
   padding: 1rem 2rem;
 }
 
-.header__btns a {
+.header__btns .a {
   padding: 9px 13px;
   font-size: 1.5rem;
   color: var(--primary-color);
@@ -218,7 +218,7 @@ header::before {
   border-radius: 100%;
 }
 
-.header__btns a:hover {
+.header__btns .a:hover {
   color: var(--white);
   background-color: var(--primary-color);
 }
