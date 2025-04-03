@@ -58,7 +58,7 @@ window.addEventListener('load', () => {
 
 
 
-
+//swipper
 const scrollRevealOption = {
   origin: "bottom",
   distance: "50px",
@@ -119,3 +119,22 @@ const swiper = new Swiper(".swiper", {
   spaceBetween: 20,
   loop: true,
 });
+
+
+//form event
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  var email = document.getElementById('email').value;
+
+  var receiver = 'admission@gkmcet.net.in'; // Replace with the actual receiver's email
+
+  var subject = 'How can I help you?';
+
+  var body = ''; // Initialize the body variable
+  body += 'Email: ' + email + "\n";   
+  body += 'Message:\r\n';
+
+  window.location.href = 'mailto:' + receiver + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+});
+
